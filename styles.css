@@ -1,2 +1,46 @@
+/* Reset default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-/* Your CSS Code here. */
+/* Center the content both vertically and horizontally */
+body, html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+
+/* Style for the movie container */
+.movie-container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style for the movie poster */
+.moviePic {
+  height: 300px;
+  width: auto;
+  opacity: 0.9;
+  border-radius: 5px;
+}
+
+/* Style for the movie description */
+.movieDetail {
+  position: relative;
+  top: 20px;
+  width: 80%;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+  margin-top: 20px;
+}
